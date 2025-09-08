@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .profile-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(163, 6, 6, 0.1);
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 180px;
+    border-radius: 100%;
+    object-fit:cover;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    color: #6997e1;
+  }
+  
+  .title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #958f8f;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 14px;
+    color: #827c7c;
+    margin: 5px 0;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #2c3e50;
+  }
+  
